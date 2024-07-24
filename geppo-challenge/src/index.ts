@@ -27,6 +27,7 @@ function minGeppoMoves(
   const visited = new Set<string>();
   visited.add(`${x1},${y1}`);
 
+  // BFS (Breadth First Search) Búsqueda en anchura
   while (queue.length > 0) {
     const [[currentX, currentY], moves] = queue.shift()!;
 

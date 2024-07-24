@@ -25,4 +25,4 @@ function canDefeatVillains(
 }
 
 console.log(canDefeatVillains(4, 3, 1, [2, 1, 9, 7])); // Output: "SI"
-console.log(canDefeatVillains(1, 2, 1, [9])); // Output: "NO"
+console.log(canDefeatVillains(1, 2, 1, [19])); // Output: "NO"
